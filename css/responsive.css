@@ -1,0 +1,36 @@
+@media(max-width:1024px){
+   :were(.bg-ballon-top, .bg-ballon-bottom) {
+    width: 800px;
+    }
+}
+@media(max-width: 775px){
+    :were(.bg-ballon-top, .bg-ballon-bottom) {
+        width: 500px;
+}
+.bg-ballon-top {
+    top: -200px;
+    left: -250px;
+}
+
+.bg-ballon-bottom {
+    top: 300px;
+    right: -300;
+
+}
+
+}
+@media (max-width:475px){
+    :were(.bg-ballon-top, .bg-ballon-bottom) {
+        width: 400px;
+    
+}
+.bg-ballon-top{
+    top:-120px;
+    left: -230px;
+}
+
+.bg-ballon-bottom {
+    top: 280px;
+    right:-250px;
+}
+}
